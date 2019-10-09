@@ -15,4 +15,10 @@ v. *Current Ambitions*
 vi. *Involvement and Social Work*
 
 
+#### Credits
 
+Utilized resources from the following sources:
+
+i. *http://fontawesome.io*
+
+ii. *https://github.com/HouariZegai*
