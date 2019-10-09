@@ -2,7 +2,7 @@
 
 This is my personal website. It showcases the following:
 
-i. **Personal projects**
+i. *Personal projects*
 
 ii. *Educational History*
 
