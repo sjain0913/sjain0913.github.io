@@ -15,6 +15,7 @@ v. *Current Ambitions*
 vi. *Involvement and Social Work*
 
 
+
 ### Credits
 
 Utilized resources from the following sources:
@@ -22,3 +23,9 @@ Utilized resources from the following sources:
 i. *http://fontawesome.io*
 
 ii. *https://github.com/HouariZegai*
+
+iii. *https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet*
+
+iv. *https://stackoverflow.com*
+
+v. *https://www.youtube.com/user/DesignCourse*
