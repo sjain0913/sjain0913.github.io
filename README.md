@@ -15,7 +15,7 @@ v. *Current Ambitions*
 vi. *Involvement and Social Work*
 
 
-#### Credits
+### Credits
 
 Utilized resources from the following sources:
 
