@@ -1,6 +1,6 @@
 # Saumya's Personal Website
 
-This is my personal website. It showcases the following:
+This is my personal website. Using ```HTML``` and ```CSS```. It showcases the following:
 
 i. *Personal projects*
 
