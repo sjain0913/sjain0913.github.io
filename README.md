@@ -1,6 +1,6 @@
 # Saumya's Personal Website
 
-This is my personal website, which uses ```HTML```, ```JavaScript```, ```PHP``` and ```CSS```. It showcases the following:
+This is my personal website, which uses ```HTML```, ```JavaScript```, ```PHP```, ```CSS``` and ```Bootstrap```. It showcases the following:
 
 i. *Personal projects*
 
