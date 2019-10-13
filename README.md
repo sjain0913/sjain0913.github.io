@@ -1,6 +1,6 @@
 # Saumya's Personal Website
 
-This is my personal website, which uses ```HTML``` and ```CSS```. Inspired from several personal websites, it showcases the following:
+This is my personal website, which uses ```HTML```, ```JavaScript```, ```PHP``` and ```CSS```. It showcases the following:
 
 i. *Personal projects*
 
@@ -22,10 +22,10 @@ Utilized resources from the following sources:
 
 i. *http://fontawesome.io*
 
-ii. *https://github.com/HouariZegai*
+ii. *https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet*
 
-iii. *https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet*
+iii. *https://stackoverflow.com*
 
-iv. *https://stackoverflow.com*
+iv. *https://www.youtube.com/user/DesignCourse*
 
-v. *https://www.youtube.com/user/DesignCourse*
+v. *https://getbootstrap.com*
