@@ -1,2 +1,31 @@
-# My Personal Website
-My personal website, showcasing personal projects, current ambitions and personal details.
+# Saumya's Personal Website
+
+This is my personal website, which uses ```HTML```, ```JavaScript```, ```PHP``` and ```CSS```. It showcases the following:
+
+i. *Personal projects*
+
+ii. *Educational History*
+
+iii. *Past Experience*
+
+iv. *Skills and Expertise*
+
+v. *Current Ambitions*
+
+vi. *Involvement and Social Work*
+
+
+
+### Credits
+
+Utilized resources from the following sources:
+
+i. *http://fontawesome.io*
+
+ii. *https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet*
+
+iii. *https://stackoverflow.com*
+
+iv. *https://www.youtube.com/user/DesignCourse*
+
+v. *https://getbootstrap.com*
