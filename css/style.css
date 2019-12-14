@@ -59,6 +59,12 @@ body {font-family:Corbel;margin:0}
     color: #2ecc71;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 
 .navbar {
     height:65px;
@@ -89,14 +95,18 @@ body {font-family:Corbel;margin:0}
     text-decoration:none
 }
 
-.navbar ul a.active,
-.navbar ul li a:hover {
-    color:#2ecc71
+.navbar ul li a.active{
+    color:#2ecc71;
+}
+
+.navbar ul li a:hover:not(.active) {
+    color:#2ecc71;
+    background-color: #555;
 }
 
 .features {
     overflow:hidden;
-    padding-top:0px;
+    padding-top:100px;
     padding-bottom:30px
 }
 
