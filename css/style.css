@@ -15,6 +15,7 @@ body {font-family:Corbel;margin:0}
     background-size: cover;
 }
 
+
 .header .slider .intro {
     padding-top:150px;
     color: #FFF;
@@ -72,41 +73,50 @@ body {font-family:Corbel;margin:0}
     color:#FFF
 }
 
+.navbar nav {
+    white-space: nowrap;
+}
+
 .navbar .logo span {color: #2ecc71}
 
-.navbar h2 {
+.navbar nav h2 {
     text-transform:uppercase;
     margin-top:17px;
 }
 
-.navbar ul {
+.navbar nav ul {
     list-style:none;
     float:right;
     margin:23px
 }
 
-.navbar ul li {
+.navbar nav ul li {
     display:inline;
     padding-right:15px
 }
 
-.navbar ul li a {
+.navbar nav ul li a.anchor {
     color:#FFF;
     text-decoration:none
 }
 
-.navbar ul li a.active{
+.navbar nav ul li a.current {
+    color:#2ecc71;
+    text-decoration:none
+}
+
+.navbar nav ul li a.active{
     color:#2ecc71;
 }
 
-.navbar ul li a:hover:not(.active) {
+.navbar nav ul li a:hover:not(.active) {
     color:#2ecc71;
     background-color: #555;
 }
 
 .features {
     overflow:hidden;
-    padding-top:100px;
+    padding-top:70px;
     padding-bottom:30px
 }
 
@@ -145,6 +155,7 @@ body {font-family:Corbel;margin:0}
 
 .about-me .info h2 {
     margin-bottom:-10px;
+    color: #2ecc71
 }
 
 .about-me .info .hobbies .content {
@@ -174,7 +185,11 @@ body {font-family:Corbel;margin:0}
     padding-bottom:50px
 }
 
-.resume p {width:95%}
+.resume p {width:100%}
+
+.resume h2 {
+    color: #2ecc71
+}
 
 .resume a:link, a:visited {
     background-color: #2ecc71;
@@ -225,25 +240,61 @@ body {font-family:Corbel;margin:0}
     margin-bottom:20px
 }
 
+.my-experience hr {
+    border:0;
+    height:1px;
+    background-color:#999
+}
 
-.portofolio {
+.my-experience .main {
+    width:50%
+}
+
+.my-experience .main h2 {margin-left:40px}
+
+.my-experience .main p {width:90%;margin-left:40px}
+
+.my-experience .exp {
+    float:left;
+    width:45%;
+    margin-top:55px;
+    padding-left:5%
+}
+
+.my-experience .exp .certified {margin-bottom:65px}
+
+.my-experience .exp .certified:last-of-type {margin-bottom:50px}
+
+.my-experience .exp .certified span {color:#666}
+
+.my-experience .exp .certified span:last-of-type{
+    display:inline-block;
+    background-color:#2ecc71;
+    color:#FFF;
+    padding:3px 10px;
+    margin-top:10px;
+    margin-bottom:20px
+}
+
+
+.projects {
     overflow:hidden;
     margin-top: 50px;
     margin-bottom: 60px;
     text-align:center
 }
 
-.portofolio p {
+.projects p {
     margin-bottom:40px;
     width:90%
 }
 
-.portofolio .icon {
+.projects .icon {
     display:inline-block;
     margin-bottom:25px
 }
 
-.portofolio img {
+.projects img {
     border: 1px solid #CCC;
     padding:8px;
     margin:4px
