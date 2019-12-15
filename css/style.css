@@ -235,7 +235,10 @@ body {font-family:Corbel;margin:0}
     width:50%
 }
 
-.my-education .main h2 {margin-left:40px}
+.my-education .main h2 {
+    margin-left:40px;
+    color:#2ecc71;
+}
 
 .my-education .main p {width:90%;margin-left:40px}
 
@@ -271,7 +274,10 @@ body {font-family:Corbel;margin:0}
     width:50%
 }
 
-.my-experience .main h2 {margin-left:40px}
+.my-experience .main h2 {
+    margin-left:40px;
+    color:#2ecc71;
+}
 
 .my-experience .main p {width:90%;margin-left:40px}
 
@@ -289,6 +295,45 @@ body {font-family:Corbel;margin:0}
 .my-experience .exp .certified span {color:#666}
 
 .my-experience .exp .certified span:last-of-type{
+    display:inline-block;
+    background-color:#2ecc71;
+    color:#FFF;
+    padding:3px 10px;
+    margin-top:10px;
+    margin-bottom:20px
+}
+
+.my-involvement hr {
+    border:0;
+    height:1px;
+    background-color:#999
+}
+
+.my-involvement .main {
+    width:50%
+}
+
+.my-involvement .main h2 {
+    margin-left:40px;
+    color:#2ecc71;
+}
+
+.my-involvement .main p {width:90%;margin-left:40px}
+
+.my-involvement .exp {
+    float:left;
+    width:45%;
+    margin-top:55px;
+    padding-left:5%
+}
+
+.my-involvement .exp .certified {margin-bottom:65px}
+
+.my-involvement .exp .certified:last-of-type {margin-bottom:50px}
+
+.my-involvement .exp .certified span {color:#666}
+
+.my-involvement .exp .certified span:last-of-type{
     display:inline-block;
     background-color:#2ecc71;
     color:#FFF;
