@@ -178,6 +178,23 @@ body {font-family:Corbel;margin:0}
 
 .about-me .info .hobbies .content .text p {margin-top:6px}
 
+.skills .container{
+    background-color:#F2F2F2;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px
+}
+
+.skills p {width:100%}
+
+.skills h2 {
+    color: #2ecc71
+}
+
+.skills h3 {
+    color: #2ecc71
+}
+
 .resume .container{
     background-color:#F2F2F2;
     text-align:center;
