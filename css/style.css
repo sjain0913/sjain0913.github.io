@@ -210,6 +210,27 @@ body {font-family:Corbel;margin:0}
     background-color:#999
 }
 
+.my-education a:link, a:visited {
+    background-color: #2ecc71;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.my-education a:hover, a:active {
+    background-color: #2ecc71;
+}
+
+.my-education .gttranscript {
+    text-align: center;
+}
+
+.my-education .hstranscript {
+    text-align: center;
+}
+
 .my-education .main {
     width:50%
 }
