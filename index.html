@@ -303,14 +303,19 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                <p id="caption">3</p>
+                                <p id="caption">I helped develop an app called All Gather which collects data on road conditions. It is currently in use in China, where it has collected over 5,000 miles of road data, which is forwarded to road companies for repairing. The app collects data from various phone sensors and a sudden change in values indicates an anomaly on the road surface. I used Kotlin, Java and Javascript in Android Studio to create modules that collect all sensory data. Then, I used Python to analyze csv data collected by sensors and used R to visualize this data.</p>
                             </td>
                         </tr>
                         <tr>
                             <td align="center" style="border:1px black solid;">
                                 <select name="slide" onChange="rotate(this.selectedIndex);">
-                                    <option value="images/projects/AllGather.png">cscsc</option>
-                                    <option value="images/projects/Personal Website.png">hi</option>
+                                    <option value="images/projects/AllGather.png">AllGather App</option>
+                                    <option value="images/projects/Personal Website.png">My Personal Website</option>
+                                    <option value="images/projects/CSSource.jpg">Python Flask Space Traders</option>
+                                    <option value="images/projects/DataStructures.jpeg">Data Structure Java Implementation</option>
+                                    <option value="images/projects/GDP.jpeg">GDP, Life Expectancy Analytics using R, Python</option>
+                                    <option value="images/projects/paint.png">Java FX Paint</option>
+                                    <option value="images/projects/grep.png">Java Grep</option>
                                 </select>
                             </td>
                         </tr>
@@ -321,6 +326,12 @@
                                 <input type="button" name="fa" onClick="this.value=((this.value=='Stop')?'Start':'Stop');auto();" value="Start" title="Autoplay" style="width:75px;" />
                                 <input type="button" onclick="rotate(x+1);" value="&gt;&gt;" title="Next Picture" />
                                 <input type="button" onclick="rotate(this.form.slide.length-1);" value="&gt;&gt;ll" title="Jump to end" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" stle="border:1px black solid;">
+                                <p><strong>You can find all of these projects on my GitHub below ⬇️</strong></p>
+                                <a href="https://github.com/sjain0913" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
                             </td>
                         </tr>
                     </table>
@@ -390,15 +401,25 @@
                 fs.selectedIndex=x;
 
                 if(fs.selectedIndex == 0) {
-                    document.getElementById("caption").innerHTML = "123";
+                    document.getElementById("caption").innerHTML = "I helped develop an app called All Gather which collects data on road conditions. It is currently in use in China, where it has collected over 5,000 miles of road data, which is forwarded to road companies for repairing. The app collects data from various phone sensors and a sudden change in values indicates an anomaly on the road surface. I used Kotlin, Java and Javascript in Android Studio to create modules that collect all sensory data. Then, I used Python to analyze csv data collected by sensors and used R to visualize this data."
                 } else if(fs.selectedIndex == 1) {
-                    document.getElementById("caption").innerHTML = "456";
+                    document.getElementById("caption").innerHTML = "I developed this website to portray myself as a skillful web designer, and more importantly, an intelligent computer scientist. I used HTML, CSS, JavaScript, PHP and BootStrap.";
+                } else if(fs.selectedIndex == 2) {
+                    document.getElementById("caption").innerHTML = "This is a group project I worked on to construct a python flask based web game replicating Space Traders. I learned Java Swing in the beginning of this project, then proceeded to make the same game in Python Flask as it provided better functionality.";
+                } else if(fs.selectedIndex == 3) {
+                    document.getElementById("caption").innerHTML = "I implemented common data structures and algorithms in Java to learn the basics of programming at the root level.";
+                } else if(fs.selectedIndex == 4) {
+                    document.getElementById("caption").innerHTML = "This project aims to show correlation between GDP and Life Expectancy. I collected data using the reserved of the  World Bank and World Population Review and analyzed it using R and RStudio.";
+                } else if(fs.selectedIndex == 5) {
+                    document.getElementById("caption").innerHTML = "This Paint application was created using JavaFX and implements most common features of the default Windows Paint application.";
+                } else if(fs.selectedIndex == 6) {
+                    document.getElementById("caption").innerHTML = "I implented the Grep comman from MacOS and Linux using Java. It efficiently searches directories for strings and outputs matches found.";
                 }
             }
 
             function auto() {
                 if(document.ff.fa.value == "Stop"){
-                    rotate(++x);setTimeout("auto()", 3000);
+                    rotate(++x);setTimeout("auto()", 5000);
                 }
             }
 

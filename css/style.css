@@ -153,6 +153,10 @@ body {font-family:Corbel;margin:0}
     color:#2ecc71
 }
 
+.about-me .container a {
+    color:#252F31
+}
+
 .about-me .info h2 {
     margin-bottom:-10px;
     color: #2ecc71
@@ -365,7 +369,7 @@ body {font-family:Corbel;margin:0}
 }
 
 .projects p {
-    margin-bottom:40px;
+    margin-bottom:10px;
     text-align: center;
     width:100%
 }
@@ -385,6 +389,15 @@ body {font-family:Corbel;margin:0}
 .projects .container .form .table select {
     font: Corbel;
 }
+
+.projects .container a {
+    color:#6A6E71
+}
+
+.projects .container a:hover {
+    color:#2ecc71
+}
+
 .contact-me {background-color:#252F31;overflow:hidden;padding-top:5px;padding-bottom:5px}
 
 .contact-me .info {width:50%}
