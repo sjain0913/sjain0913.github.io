@@ -359,28 +359,15 @@ body {font-family:Corbel;margin:0}
     margin-bottom:20px
 }
 
-
-.projects {
-    overflow:hidden;
-    margin-top: 50px;
-    margin-bottom: 60px;
-    text-align:center
+.projects h2 {
+    color:#2ecc71;
+    text-align: center;
 }
 
 .projects p {
     margin-bottom:40px;
-    width:90%
-}
-
-.projects .icon {
-    display:inline-block;
-    margin-bottom:25px
-}
-
-.projects img {
-    border: 1px solid #CCC;
-    padding:8px;
-    margin:4px
+    text-align: center;
+    width:100%
 }
 
 .contact-me {background-color:#252F31;overflow:hidden;padding-top:5px;padding-bottom:5px}
