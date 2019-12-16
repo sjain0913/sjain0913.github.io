@@ -2,17 +2,19 @@
 
 This is my personal website, which uses ```HTML```, ```JavaScript```, ```PHP```, ```CSS``` and ```Bootstrap```. It showcases the following:
 
-i. *Personal projects*
+i. *Skills*
 
-ii. *Educational History*
+ii. *Resume*
 
-iii. *Past Experience*
+iii. *Education*
 
 iv. *Skills and Expertise*
 
-v. *Current Ambitions*
+v. *Experience*
 
-vi. *Involvement and Social Work*
+v. *Involvement & Social Work*
+
+vi. *Projects*
 
 
 
