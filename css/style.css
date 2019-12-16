@@ -370,6 +370,21 @@ body {font-family:Corbel;margin:0}
     width:100%
 }
 
+.projects .form .table .header {
+    color: #2ecc71;
+    font-size: 1.17em;
+}
+
+.projects .container {
+    background-color:#F2F2F2;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:25px
+}
+
+.projects .container .form .table select {
+    font: Corbel;
+}
 .contact-me {background-color:#252F31;overflow:hidden;padding-top:5px;padding-bottom:5px}
 
 .contact-me .info {width:50%}
