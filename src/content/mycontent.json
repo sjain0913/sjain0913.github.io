@@ -1,0 +1,70 @@
+{
+  "Title": "Saumya Jain | Personal Website",
+  "Name": "Saumya Jain",
+  "Description": [
+    ""
+  ],
+  "MainImage": "",
+  "BackgroundURL": "",
+
+  "AboutImage": "",
+  "AboutContent": [
+
+  ],
+
+  "WorkContent": [
+    ""
+  ],
+  "WorkImage": "",
+  "InternshipsStartLine": "",
+  "InternShips": [
+    {
+      "name": "",
+      "link": ""
+    }
+  ],
+  "ProjectsStartLine": "",
+  "Projects": [
+    {
+      "name": "↗",
+      "link": ""
+    }
+  ],
+  "showTalksAndBlogTab": true,
+  "TalksAndBlogsTopContent": "",
+  "TalkIntroLine": "",
+  "Talks": [
+    {
+      "talkTitle": "⚡",
+      "talkMetadata": "",
+      "talkDescription": "",
+      "links": [
+        {
+          "url": "",
+          "linkTitle": "↗"
+        }
+      ]
+    }
+  ],
+  "BlogsIntroLine": "",
+  "Blogs": [
+    {
+      "blogTitle": "🎵",
+      "link": ""
+    }
+  ],
+
+  "CVStartLine": "💪 ",
+  "CV": "",
+  "Resume": "",
+
+  "emailid": "mailto:samjain0913@gmail.com",
+  "linkedin": "",
+  "wordpress": "",
+  "facebook": "",
+  "github": "",
+  "instagram": "",
+  "twitter": "",
+  "medium": "",
+  "linktree": ""
+}
