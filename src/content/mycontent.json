@@ -2,14 +2,16 @@
   "Title": "Saumya Jain | Personal Website",
   "Name": "Saumya Jain",
   "Description": [
-    ""
+    "Hi, I'm a senior computer science major at the Georgia Institute of Technology.",
+    "I recently finished a 7 month SDE co-op with Amazon Robotics!",
+    "――――――――――――――",
+    "Currently searching for challenging full time roles starting in Summer'22!"
   ],
-  "MainImage": "",
-  "BackgroundURL": "",
+  "MainImage": "https://i.imgur.com/MlFt7sgb.jpg",
 
   "AboutImage": "",
   "AboutContent": [
-
+    "I have detailed experience in Full Stack Development, Cloud Computing and Machine Learning."
   ],
 
   "WorkContent": [
