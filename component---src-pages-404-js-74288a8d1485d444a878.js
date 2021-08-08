@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{w2l6:function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),l=n.n(t),r=n("Bl7J");a.default=function(){return l.a.createElement(r.a,null,l.a.createElement("h1",null,"NOT FOUND"),l.a.createElement("p",null,"This page does not exist.... Head back ",l.a.createElement("a",{href:"https://saumyajain.org/"},"Home")," ?"),l.a.createElement("hr",null))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-74288a8d1485d444a878.js.map
