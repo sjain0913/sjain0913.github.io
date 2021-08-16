@@ -8,7 +8,6 @@
     "Currently searching for challenging full time roles starting in Summer'22!"
   ],
   "MainImage": "https://i.imgur.com/MlFt7sgb.jpg",
-
   "AboutImage": "https://i.imgur.com/AxvRie7.jpg",
   "AboutContent": [
     "I'm a Software Engineer by day and a soccer player by evening!",
@@ -16,17 +15,34 @@
     "I love diving deep and picking up new tech stacks when required. Through my experiences at Amazon Robotics and Boston Scientific, I have learned to be customer obsessed, insist on the highest standards and think creatively!",
     "Outside of work, I am passionate about hiking 🥾, travelling to new cultures ✈️ and hip-hop 🎵!"
   ],
-
-  "WorkContent": [
-    ""
+  "WorkContent1": [
+    "Most recently, I worked as a Solutions Analytics SDE Co-Op at Amazon Robotics. This co-op allowed me to function as a full time software developer, contributing to all team decisions, scrum assignments and design challenges. My 7 months at Amazon Robotics provided the gateway between being a student and being a professional software engineer!",
+    "I was fortunate to gain immense experience in many diverse fields, including Cloud Computing, Backend Infrastructure, Machine Learning, along with Full Stack Development."
   ],
-  "WorkImage": "",
-  "InternshipsStartLine": "",
-  "InternShips": [
+  "WorkContent2": [
+    "In Summer 2020, I worked as a software developer intern at Boston Scientific. Providing software solutions in a non-software based company allowed me to learn many essential skills.",
+    "I worked on a mobile application to help patients with Parkinsons control their Boston Scientific implants. Working on this project definitely earned me some good karma 😃"
+  ],
+  "WorkImage1": "https://i.imgur.com/cvnGdad.jpg",
+  "WorkImage2": "https://i.imgur.com/cy31xjh.png",
+  "OtherWork": "Besides these internships, I have other experiences as well:",
+  "OtherWorkList": [
     {
-      "name": "",
-      "link": ""
+      "name": "Android Developer/Data Scientist @ Georgia Tech - Smart City Infrastructure Project Team",
+      "link": "https://www.vip.gatech.edu/teams/vvc"
+    },
+    {
+      "name": "Data Scientist/Researcher @ Science & Tech Ministry, Govt. of India - Reporting India's Mental Health Status",
+      "link": "https://dst.gov.in/"
     }
+  ],
+  "EducationImage": "https://i.imgur.com/l15DM3y.jpg",
+  "EducationContent": [
+    "I am currently a CS senior @ Georgia Tech. Within my degree, I am concentrating in media and intelligence.",
+    "During my time at GT, I have used the wide diversity and opportunities to be my best self! From being in FilmMakers@GT for several semesters to studying abroad in Metz, France in Summer 2019, I have had the best college life I could hope for!",
+    "GPA: 3.65/4.0 (Highest Honors)",
+    "Graduating in May 2022!",
+    "In the future, I want to pursue an MBA to cater to my entrepreneurial curiosity!"
   ],
   "ProjectsStartLine": "",
   "Projects": [
@@ -35,35 +51,12 @@
       "link": ""
     }
   ],
-  "showTalksAndBlogTab": true,
-  "TalksAndBlogsTopContent": "",
-  "TalkIntroLine": "",
-  "Talks": [
-    {
-      "talkTitle": "⚡",
-      "talkMetadata": "",
-      "talkDescription": "",
-      "links": [
-        {
-          "url": "",
-          "linkTitle": "↗"
-        }
-      ]
-    }
-  ],
-  "BlogsIntroLine": "",
-  "Blogs": [
-    {
-      "blogTitle": "🎵",
-      "link": ""
-    }
-  ],
-
-  "CVStartLine": "💪 ",
-  "CV": "",
-  "Resume": "https://drive.google.com/file/d/1h6cKHtyxQhYfWsZUM8koG5FUU5Is-PMf/view?usp=sharing",
-
-  "emailid": "mailto:samjain0913@gmail.com",
+  "ResumeStartLine": "I love working on new challenging projects and picking up new skills. I am always open for collaboration, so feel free to reach out if you want to work together!",
+  "Resume": "https://drive.google.com/file/d/1h6cKHtyxQhYfWsZUM8koG5FUU5Is-PMf/preview",
+  "ResumeAfterLine": "If you are unable to view my resume, it can also be found ",
+  "emailid1": "mailto:samjain0913@gmail.com",
+  "emailid2": "mailto:samjain0913@gatech.edu",
+  "phone": "tel:470-363-1437",
   "linkedin": "https://www.linkedin.com/in/sj0913/",
   "github": "https://github.com/sjain0913"
 }

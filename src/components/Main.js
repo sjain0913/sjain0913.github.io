@@ -54,12 +54,8 @@ class Main extends React.Component {
               </div>
             )
           })}
-          {/* </p> */}
-          {/* not visible in gatsby build */}
+
           {close}
-          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
-            ← Back
-          </div> */}
         </article>
 
         <article
@@ -76,8 +72,163 @@ class Main extends React.Component {
           }}
         >
           <h2 className="major">Work</h2>
+          <span>
+            <img 
+              src={JSONData.WorkImage1}
+              alt=""
+              style={{
+                width: '60%',
+                height: 'auto',
+                display: 'block',
+                marginLeft: 'auto',
+                marginRight: 'auto'
+              }}  
+            />
+          </span>
+          <br />
+          {JSONData.WorkContent1.map(item => {
+            return (
+              <div
+                style={{
+                  fontFamily: 'Open Sans, sans-serif',
+                  fontWeight: '400',
+                  fontSize: 'medium',
+                  lineHeight: '1.5',
+                }}
+              >
+                <br />
+                {item}
+              </div>
+            )
+          })}
+          <br />
+          <span>
+            <img
+              src={JSONData.WorkImage2}
+              alt=""
+              style={{
+                width: '60%',
+                height: 'auto',
+                display: 'block',
+                marginLeft: 'auto',
+                marginRight: 'auto'
+              }}    
+              />
+          </span>
+          <br />
+          {JSONData.WorkContent2.map(item => {
+            return (
+              <div
+                style={{
+                  fontFamily: 'Open Sans, sans-serif',
+                  fontWeight: '400',
+                  fontSize: 'medium',
+                  lineHeight: '1.5',
+                }}
+              >
+                <br />
+                {item}
+              </div>
+            )
+          })}
+          <hr />
+          <div
+            style={{
+              fontFamily: 'Open Sans, sans-serif',
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+            {JSONData.OtherWork}
+          </div>
+          <br/>
+          <ul>
+            {JSONData.OtherWorkList.map(item => {
+              return (
+                <li
+                  style={{
+                    fontFamily: 'Open Sans, sans-serif',
+                    fontWeight: '400',
+                    fontSize: 'medium',
+                    lineHeight: '1.5',
+                  }}
+                >
+                  <a target="_blank" href={item.link}>
+                    {item.name}
+                  </a>
+                </li>
+              )
+            })}
+          </ul>
+          
+          {close}
+        </article>
+
+        <article
+          id="education"
+          className={`${this.props.article === 'education' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{
+            display: 'none',
+            height: '90vh',
+            overflow: 'auto',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
+        >
+          <h2 className="major">Education</h2>
+          <span>
+            <img
+              src={JSONData.EducationImage}
+              alt=""
+              style={{
+                width: '60%',
+                height: 'auto',
+                display: 'block',
+                marginLeft: 'auto',
+                marginRight: 'auto'
+              }}
+            />
+          </span>
+          <br />
+            {JSONData.EducationContent.map(item => {
+              return (
+                <div
+                  style={{
+                    fontFamily: 'Open Sans, sans-serif',
+                    fontWeight: '400',
+                    fontSize: 'medium',
+                    lineHeight: '1.5',
+                  }}
+                >
+                  <br />
+                  {item}
+                </div>
+              )
+            })}
+          <br />
+
+          {close}
+        </article>
+
+        <article
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{
+            display: 'none',
+            height: '90vh',
+            overflow: 'auto',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
+        >
+          <h2 className="major">Projects</h2>
           <span className="image main">
-            <img src={JSONData.WorkImage} alt="" />
+            <img src={JSONData.WorkImage1} alt="" />
           </span>
 
           <div
@@ -88,256 +239,61 @@ class Main extends React.Component {
               lineHeight: '1.5',
             }}
           >
-            {JSONData.WorkContent}
+            {JSONData.WorkContent1}
           </div>
           <br />
-          <div
-            style={{
-              fontFamily: 'Open Sans, sans-serif',
-              fontWeight: '400',
-              fontSize: 'medium',
-              lineHeight: '1.5',
-            }}
-          >
-            {JSONData.InternshipsStartLine}
-          </div>
-          <ul>
-            {JSONData.InternShips.map(item => {
-              return (
-                <li
-                  style={{
-                    fontFamily: 'Open Sans, sans-serif',
-                    fontWeight: '400',
-                    fontSize: 'medium',
-                    lineHeight: '1.5',
-                  }}
-                >
-                  <a target="_blank" href={item.link}>
-                    {item.name}
-                  </a>
-                </li>
-              )
-            })}
-          </ul>
-          <div
-            style={{
-              fontFamily: 'Open Sans, sans-serif',
-              fontWeight: '400',
-              fontSize: 'medium',
-              lineHeight: '1.5',
-            }}
-          >
-            {JSONData.ProjectsStartLine}
-          </div>
-          <ul>
-            {JSONData.Projects.map(item => {
-              return (
-                <li
-                  style={{
-                    fontFamily: 'Open Sans, sans-serif',
-                    fontWeight: '400',
-                    fontSize: 'medium',
-                    lineHeight: '1.5',
-                  }}
-                >
-                  <a target="_blank" href={item.link}>
-                    {item.name}
-                  </a>
-                </li>
-              )
-            })}
-          </ul>
 
-          {/* not visible in gatsby build */}
           {close}
-          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
-            ← Back
-          </div> */}
         </article>
-        {JSONData.showTalksAndBlogTab && (
-          <article
-            id="talks"
-            className={`${this.props.article === 'talks' ? 'active' : ''} ${
-              this.props.articleTimeout ? 'timeout' : ''
-            }`}
-            style={{
-              display: 'none',
-              height: '90vh',
-              overflow: 'auto',
-              scrollbarWidth: 'none',
-              msOverflowStyle: 'none',
-            }}
-          >
-            <h2
-              style={{
-                fontWeight: '700',
-              }}
-              className="major"
-            >
-              Talks
-            </h2>
-            <div
-              style={{
-                fontFamily: 'Open Sans, sans-serif',
-                fontWeight: '400',
-                fontSize: 'medium',
-                lineHeight: '1.5',
-              }}
-            >
-              {JSONData.TalksAndBlogsTopContent}
-            </div>
-            <br />
-            <div
-              style={{
-                fontFamily: 'Open Sans, sans-serif',
-                fontWeight: '400',
-                fontSize: 'medium',
-                lineHeight: '1.5',
-              }}
-            >
-              {JSONData.TalkIntroLine}
-            </div>
-            <ul>
-              {JSONData.Talks.map(item => {
-                return (
-                  <li style={{ marginBottom: '25px' }}>
-                    <h3
-                      style={{
-                        fontWeight: '700',
-                        marginBottom: 0,
-                      }}
-                    >
-                      {item.talkTitle}
-                    </h3>
-                    <span
-                      style={{
-                        marginTop: 0,
-                        fontSize: 'small',
-                      }}
-                    >
-                      {item.talkMetadata}
-                    </span>
-                    <p
-                      style={{
-                        fontFamily: 'Fira Mono, monospace',
-                        fontWeight: '100',
-                        fontSize: 'small',
-                        lineHeight: '1.5',
-                        marginBottom: '15px',
-                        marginTop: '10px',
-                      }}
-                    >
-                      {item.talkDescription}
-                    </p>
-                    {item.links.map(linkItem => {
-                      return (
-                        <a
-                          style={{
-                            marginRight: '10px',
-                            lineHeight: '1.5',
-                          }}
-                          target="_blank"
-                          href={linkItem.url}
-                        >
-                          {linkItem.linkTitle}
-                        </a>
-                      )
-                    })}
-                  </li>
-                )
-              })}
-            </ul>
-            <hr />
-            <h2 style={{ fontWeight: '700' }}>Blogs</h2>
-            <div
-              style={{
-                fontFamily: 'Open Sans, sans-serif',
-                fontWeight: '400',
-                fontSize: 'medium',
-                lineHeight: '1.5',
-              }}
-            >
-              {JSONData.BlogsIntroLine}
-            </div>
-            <br />
-            <ul>
-              {JSONData.Blogs.map(item => {
-                return (
-                  <li
-                    style={{
-                      fontFamily: 'Fira Mono, monospace',
-                      fontWeight: '400',
-                      fontSize: 'medium',
-                      lineHeight: '1.8',
-                    }}
-                  >
-                    <a target="_blank" href={item.link}>
-                      {item.blogTitle}
-                    </a>
-                  </li>
-                )
-              })}
-            </ul>
 
-            {/* not visible in gatsby build */}
-            {close}
-            {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
-            ← Back
-          </div> */}
-          </article>
-        )}
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="resume"
+          className={`${this.props.article === 'resume' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
+          style={{
+            display: 'none',
+            height: '90vh',
+            overflow: 'auto',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
         >
-          <h2 className="major"> CV </h2>
+          <h2
+            style={{
+              fontWeight: '700',
+            }}
+            className="major"
+          >
+            Resume
+          </h2>
           <div
             style={{
               fontFamily: 'Open Sans, sans-serif',
               fontWeight: '400',
-              fontSize: 'large',
-              lineHeight: '1.9',
+              fontSize: 'medium',
+              lineHeight: '1.5',
             }}
           >
-            {JSONData.CVStartLine}
+            {JSONData.ResumeStartLine}
           </div>
           <br />
+          <iframe src={JSONData.Resume} width="100%" height="75%"></iframe>
           <br />
-          <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-            <a
-              style={{
-                fontFamily: 'Open Sans, sans-serif',
-                fontWeight: '400',
-                fontSize: 'large',
-                lineHeight: '1.5',
-              }}
-              target="_blank"
-              href={JSONData.CV}
-            >
-              CV{' '}
-            </a>
-            <a
-              style={{
-                fontFamily: 'Open Sans, sans-serif',
-                fontWeight: '400',
-                fontSize: 'large',
-                lineHeight: '1.5',
-              }}
-              target="_blank"
-              href={JSONData.Resume}
-            >
-              Resume
+          <div
+            style={{
+              fontFamily: 'Open Sans, sans-serif',
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+            {JSONData.ResumeAfterLine}
+            <a target="_blank" href={JSONData.Resume}>
+                      HERE
             </a>
           </div>
-          {/* </p> */}
-          {/* not visible in gatsby build */}
           {close}
-          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
-            ← Back
-          </div> */}
         </article>
 
         <article
@@ -348,56 +304,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Connect</h2>
-          {/* <form method="post" action={JSONData.emailid} type="text/plain">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form> */}
           <ul className="icons">
-            <li>
-              <a
-                target="_blank"
-                href={JSONData.twitter}
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href={JSONData.facebook}
-                className="icon fa-facebook"
-              >
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href={JSONData.medium}
-                className="icon fa-medium"
-              >
-                <span className="label">Medium</span>
-              </a>
-            </li>
             <li>
               <a
                 target="_blank"
@@ -419,27 +326,32 @@ class Main extends React.Component {
             <li>
               <a
                 target="_blank"
-                href={JSONData.wordpress}
-                className="icon fa-wordpress"
+                href={JSONData.emailid1}
+                className="icon fa-envelope-open"
               >
-                <span className="label">Blog(deprecated)</span>
+                <span className="label">Personal Email</span>
               </a>
             </li>
             <li>
               <a
                 target="_blank"
-                href={JSONData.linktree}
-                className="icon fa-link"
+                href={JSONData.emailid2}
+                className="icon fa-envelope-open"
               >
-                <span className="label">LinkTree</span>
+                <span className="label">GT Email</span>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href={JSONData.phone}
+                className="icon fa-phone"
+              >
+                <span className="label">Phone</span>
               </a>
             </li>
           </ul>
-          {/* not visible in gatsby build */}
           {close}
-          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
-            ← Back
-          </div> */}
         </article>
       </div>
     )

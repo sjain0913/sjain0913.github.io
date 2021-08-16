@@ -20,7 +20,7 @@ const Header = props => (
         <h1
           style={{
             fontFamily: 'Open Sans, sans-serif',
-            fontWeight: '300',
+            fontWeight: '500',
           }}
         >
           {JSONData.Name}
@@ -33,7 +33,7 @@ const Header = props => (
                 style={{
                   fontFamily: 'Fira Mono, monospace',
                   fontWeight: '100',
-                  fontSize: 'small',
+                  fontSize: 'medium',
                   letterSpacing: '1px',
                 }}
               >
@@ -77,32 +77,43 @@ const Header = props => (
             Work
           </button>
         </li>
-        {JSONData.showTalksAndBlogTab && (
-          <li>
-            <button
-              onClick={() => {
-                props.onOpenArticle('talks')
-              }}
-              style={{
-                fontFamily: 'Fira Mono, monospace',
-                fontWeight: '200',
-              }}
-            >
-              Talks+Blogs
-            </button>
-          </li>
-        )}
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('education')
             }}
             style={{
               fontFamily: 'Fira Mono, monospace',
               fontWeight: '200',
             }}
           >
-            CV
+            Education
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('projects')
+            }}
+            style={{
+              fontFamily: 'Fira Mono, monospace',
+              fontWeight: '200',
+            }}
+          >
+            Projects
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('resume')
+            }}
+            style={{
+              fontFamily: 'Fira Mono, monospace',
+              fontWeight: '200',
+            }}
+          >
+            Resume
           </button>
         </li>
         <li>
