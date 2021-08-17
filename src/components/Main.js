@@ -227,9 +227,6 @@ class Main extends React.Component {
           }}
         >
           <h2 className="major">Projects</h2>
-          <span className="image main">
-            <img src={JSONData.WorkImage1} alt="" />
-          </span>
 
           <div
             style={{
@@ -239,9 +236,48 @@ class Main extends React.Component {
               lineHeight: '1.5',
             }}
           >
-            {JSONData.WorkContent1}
+            {JSONData.ProjectsStartLine}
           </div>
           <br />
+          {JSONData.Projects.map(item => {
+            return (
+              <div
+                style={{
+                  fontFamily: 'Open Sans, sans-serif',
+                  fontWeight: 'bold',
+                  fontSize: 'large',
+                  lineHeight: '1.5',
+                }}
+              >
+                {item.link !== "" ? 
+                  (<a target="_blank" href={item.link}>
+                    {item.name}
+                  </a>) :
+                  (
+                    item.name
+                  )
+                }
+                <ul>
+                  {item.description.map(line => {
+                    return (
+                      <li
+                        style={{
+                          fontFamily: 'Open Sans, sans-serif',
+                          fontWeight: '400',
+                          fontSize: 'medium',
+                          lineHeight: '1.5',
+                        }}
+                      >
+                        {line}
+                      </li>
+                    )
+                  })}
+                </ul>
+                
+              </div>
+
+            )
+          })}
 
           {close}
         </article>

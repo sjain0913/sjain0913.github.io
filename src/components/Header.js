@@ -4,7 +4,7 @@ import JSONData from '../content/mycontent.json'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo backdrop-blur">
+    <div>
       <img
         src={JSONData.MainImage}
         style={{
@@ -12,6 +12,7 @@ const Header = props => (
           maxHeight: '100%',
           display: 'block',
           borderRadius: '50%',
+          border: "1px solid"
         }}
       ></img>
     </div>

@@ -44,11 +44,57 @@
     "Graduating in May 2022!",
     "In the future, I want to pursue an MBA to cater to my entrepreneurial curiosity!"
   ],
-  "ProjectsStartLine": "",
+  "ProjectsStartLine": "The process of turning my own ideas into reality is exhilarating. Here are a few of my personal projects: ",
   "Projects": [
     {
-      "name": "↗",
-      "link": ""
+      "name": "Mood Machine (In Progress)",
+      "link": "",
+      "description": [
+        "Users can speak to app assistant, obtain music to transition into a desired mood.",
+        "Analyzing user emotions through speech analysis with Convolutional Neural Networks (CNN) and Machine Learning.",
+        "User’s emotion data and surrounding conditions used to provide Spotify playlists to convert user’s mood to the desired state.",
+        "Using Python for ML modelling, Java for backend, Spotify API, RAVDESS dataset, React/React Native for apps.",
+        "Hosting all APIs and services using AWS cloud (API Gateway, Lambda, RDS), designed using Figma/AdobeXD."
+      ]
+    },
+    {
+      "name": "Booze API ↗",
+      "link": "https://github.com/sjain0913/Booze-API-Backend",
+      "description": [
+        "Deployed REST API with detailed nutritional info of 30,000+ alcoholic products.",
+        "Built scalable backend using {\bf MongoDB, Express.js, Node.js and Heroku}. Scraped 200,000+ entries using Python libraries, pushed through Postman.",
+        "Engineered system for up to 1000 concurrent connections through Atlas."
+      ]
+    },
+    {
+      "name": "Booze App + WebApp ↗",
+      "link": "https://github.com/sjain0913/Booze-Frontend",
+      "description": [
+        "Constructed Flutter app for live measure of user's Alcohol Concentration.",
+        "Support for over 30,000 products through built API deployed on Heroku. Used Google Firebase for application tools.",
+        "Implementing features for emergencies, taxi booking, friend tracking, etc.",
+        "Pitched to Georgia Tech as solution for student alcohol consumption risks."
+      ]
+    },
+    {
+      "name": "Crust ↗",
+      "link": "https://github.com/sjain0913/crust-hackgt7",
+      "description": [
+        "Won Top 8 Recognition at Hack GT 2020 (Georgia Tech's Premier hackathon with over 2000 participants!",
+        "Created a suite of applications for restaurants to better handle order intake by distributing load among multi-location chains.",
+        "Invented the SurgeBalance algorithm to assign online orders equally to multiple locations, to ensure best delivery times.",
+        "Provided an augmented reality viewer, to visualize the meal being ordered using Apple ARKit.",
+        "The suite is topped off by a analytics dashboard built using AWS backend and React.js for management."
+      ]
+    },
+    {
+      "name": "AirScribe ↗",
+      "link": "https://vast-jewel-68f.notion.site/AirScribe-Writing-on-a-Virtual-Canvas-using-Object-Tracking-56a6ff49174e45d48f9cbc277554a7d1",
+      "description": [
+        "Implemented a virtual note taker catered towards professors in the virtual education world.",
+        "Utilized Computer Vision and Machine Learning to recognize handwritten text on screen and convert to sharable formats.",
+        "Used OpenCV for object tracking canvas for easy text recognition, along with the EMNIST dataset and TensorFlow."
+      ]
     }
   ],
   "ResumeStartLine": "I love working on new challenging projects and picking up new skills. I am always open for collaboration, so feel free to reach out if you want to work together!",
