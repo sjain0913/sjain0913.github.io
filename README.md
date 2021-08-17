@@ -1,22 +1,18 @@
 # Saumya's Personal Website
 
-This is my personal website, which uses ```HTML```, ```JavaScript```,  ```CSS``` and ```Bootstrap```. It is responsive and adapts to all screen types. It showcases the following:
+This is my personal website, which uses ```React```, ```Gatsby.js``` and ```Bootstrap```. It is responsive and adapts to all screen types. It showcases the following:
 
-i. *Skills*
+i. *Work Experience*
 
-ii. *Resume*
+ii. *Education*
 
 iii. *Education*
 
-iv. *Skills and Expertise*
+iv. *Projects*
 
-v. *Experience*
+v. *Resume*
 
-v. *Involvement & Social Work*
-
-vi. *Projects*
-
-
+v. *Contact Info*
 
 ### Credits
 
